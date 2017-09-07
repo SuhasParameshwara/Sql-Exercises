@@ -1,0 +1,70 @@
+Exercise 1
+
+1. b) CREATE
+2. c) FUNCTION
+3. e) RETURN
+4. a) DECIMAL
+     d) VOID
+5. d) DEFAULT
+
+
+
+Exercise 2
+
+1.b) CAST
+ d)  CONVERT
+2.     c)  EXISTS
+3.     a)  ADDDATE
+4.     e) DATEDIFF
+5.     b) GETDATE
+
+
+
+
+
+
+
+
+
+
+
+
+Exercise 3
+
+1. c) PROCEDURE
+2. b) PROC
+3. d) kill { PROC |...}
+4. a) CREATE PROCEDURE Registration.GetStudentIdentification
+(
+    SELECT FirstName, LastName, DateOfBirth, Gender
+    FROM Registration.Students
+);
+GO
+5. e) EXEC/EXECUTE [SchemaName.]ProcedureName
+
+Exercise 4
+
+1. e) Stored procedure
+2. a) When an event occurs
+3. b) INSERT
+    c) UPDATE
+    e) DELETE
+4. a) CREATE
+    c) ALTER
+    d) DROP
+5. b) Using Transact-SQL
+    c) Using .NET Framework
+
+
+
+
+Exercise 5
+
+1. e)  CREATE INDEX SomeIndex ON Students(StudentNumber);
+     GO
+2.  c) CREATE INDEX IndexName ON Table/View(Column(s))
+
+3.  a) CREATE PARTITION FUNCTION partition_function_name ( input_parameter_type )
+AS RANGE [ LEFT | RIGHT ] 
+FOR VALUES ( [ boundary_value [ ,...n ] ] ) 
+[ ; ]
